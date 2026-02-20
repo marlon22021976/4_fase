@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Primeiro Formulário</h1>
+    <form action="https://formspree.io/f/xojnnkkq" method="POST">
+        <p>
+            <label>Informe o seu Estado: </label><br>
+            <input type="text" placeholder="Digite seu Estado:" required="required" value="" name="estado"></input><br>
+        </p> 
+        <p>
+            <label>Mensagem</label><br> 
+            <textarea name="mensagem" placeholder="Deixe sua mensagem" rows="5" cols="21" required></textarea>
+        </p>
+        <p>
+            <input type="checkbox" value="SIM" required="required" checked="checked">Termo de uso</input>
+        </p>
+        <p>
+            <input type="radio" name="cidade" value="Palhoça" checked="checked">Palhoça</input><br>
+            <input type="radio" name="cidade" value="Sãojose">São José</input><br>
+            <input type="radio" name="cidade" value="Biguaçu">Biguaçu</input><br>
+        </p>
+        <p>
+            <label>Tratar como:</label><br>
+            <select name="trat">
+                <option value="Senhor">Senhor</option><br>
+                <option value="Senhora">Senhora</option><br>
+                <option value="Senhorita">Senhorita</option><br>
+            </select>
+        </p>
+            
+            <input type="radio" name="tratamento" value="Senhor">Senhor</input><br>
+            <input type="radio" name="tratamento" value="Senhora">Senhora</input><br>
+            <input type="radio" name="tratamento" value="Senhorita">Senhorita</input><br>
+        </p>
+        <p>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button><br>
+        </p>
+
+</body>
+</html>
