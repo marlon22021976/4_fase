@@ -1,0 +1,21 @@
+div{
+    background-color: rgb(29, 99, 204);
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    color: white;
+  }
+  #div2{
+    background-color: rgb(30, 85, 68);
+    width: 400px;
+    height: 120%;
+  }
+
+  .tdDiv{
+    border: 2px solid black;
+    border-radius: 25px;
+
+  }
+  h1{
+    font-size: 20px;
+  }
