@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.estacao {
+    position: relative;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(180, 21, 21, 0.2);
+}
+
+.estacao img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+.formulario {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.formulario input {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.formulario button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
